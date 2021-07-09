@@ -54,6 +54,7 @@ function showDogInfo($dogid)
   <form action="adddog.php">
     <input type="submit" value="Add New Dog" />
   </form>
+  <a href="signout.php">Sign Out.</a>
 
 </body>
 

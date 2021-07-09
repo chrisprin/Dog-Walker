@@ -9,6 +9,7 @@ session_start();
  <body>
  
  <h1> Add Dog </h1>
+ <a href="signout.php">Sign Out.</a>
  
 
  

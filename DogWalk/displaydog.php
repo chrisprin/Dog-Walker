@@ -13,6 +13,7 @@ var_dump($_SESSION);
  <form action="setappointment.php" method="post">
       <input name="setappointment" type="submit" value="Schedule A Walk">
   </form>
+  <a href="signout.php">Sign Out.</a>
  
 
  

@@ -89,7 +89,7 @@ function test_input($data)
             <input name="signup" type="submit" value="Complete Registration">
         </h2>
     </form>
-    <form action="signin.php" method="post">
+    <form action="signout.php" method="post">
       <input name="cancel" type="submit" value="Cancel Registration">
   </form>
 </body>

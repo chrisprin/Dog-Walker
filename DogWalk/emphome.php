@@ -10,6 +10,7 @@ var_dump($_SESSION);
  <body>
  
  <h1> Employee Portal </h1>
+ <a href="signout.php">Sign Out.</a>
  
 
  

@@ -74,5 +74,6 @@ $selectedTime = $err = '';
     }
     ?>
 </body>
+<a href="signout.php">Sign Out.</a>
 
 </html>
