@@ -5,9 +5,8 @@ $dbusername = "root";
 $dbpassword = "";
 $dbname = "dogwalkingcompany";
 $conn = mysqli_connect($dbservername, $dbusername, $dbpassword, $dbname);
-echo $_SESSION["userID"];
 $dogquery = "SELECT d.name, d.dogID FROM dogs AS d, customers AS c, customers_dogs AS cd
-WHERE c.customerID = cd.FK_customerID && d.dogID = cd.FK_dogID";
+WHERE c.customerID = cd.FK_customerID && d.dogID = cd.FK_dogID && c.customerID = " . $_SESSION["userID"];
 $doglist = mysqli_query($conn, $dogquery);
 
 $dogid = '';

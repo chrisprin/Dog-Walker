@@ -106,13 +106,12 @@ function test_input($data)
       Username: <input type="text" name="username" value="<?php echo $username; ?>"><br>
       Password: <input type="text" name="password" value="<?php echo $password; ?>"><br>
       <input name="customerLogin" type="submit" value="Login"><br>
-      <input name="employeeLogin" type="submit" value="Employee Login">
-
+      <input name="employeeLogin" type="submit" value="Employee Login"><br>
     </h2>
-
   </form>
-
-  <h3> <button type="button">Sign Up</button> </h3>
+  <form action="signup.php" method="post">
+      <input name="signup" type="submit" value="Sign Up">
+  </form>
 </body>
 
 </html>
